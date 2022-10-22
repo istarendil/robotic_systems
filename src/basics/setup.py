@@ -23,6 +23,8 @@ setup(
             'node = basics.01_node:main',
             'publisher = basics.02_publisher:main',
             'subscriber = basics.03_subscriber:main',
+            'server = basics.04_server:main',
+            'client = basics.05_client:main',
         ],
     },
 )
