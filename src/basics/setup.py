@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='istarien',
-    maintainer_email='istarien@todo.todo',
+    maintainer='istarendil',
+    maintainer_email='istarendiln@todo.todo',
     description='Basic package for learning',
     license='TODO: License declaration',
     tests_require=['pytest'],
@@ -25,6 +25,7 @@ setup(
             'subscriber = basics.03_subscriber:main',
             'server = basics.04_server:main',
             'client = basics.05_client:main',
+            'parameters = basics.06_parameters:main',
         ],
     },
 )
