@@ -19,6 +19,7 @@ of a pysical system for a **Scara** manipulator through the Robot Operating Syst
   - Unified Robot Description Format (URDF)
   - Rviz visualitation
   - Gazebo simulation
+  - Teach pendant application
 
 
 # Tools
