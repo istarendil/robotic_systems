@@ -1,6 +1,6 @@
 # robotic_systems
 
-This repository contains the code related to the **"Robotic systems"** course. This considers the development of drivers, simulations and development 
+This repository contains the code related to the **"Robotic systems"** course. This considers the development of drivers, simulations and the construction 
 of a pysical system for a **Scara** manipulator through the Robot Operating System [(ROS2)](https://docs.ros.org/en/humble/index.html) <br>
 <br>
 ![Screenshot from 2022-10-31 13-24-47](https://user-images.githubusercontent.com/107052856/199092952-69f87506-d605-4249-bea1-e5a1c9cc3964.png)
