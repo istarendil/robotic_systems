@@ -1,0 +1,8 @@
+# Goal
+int64[3] goal_position
+---
+# Result
+int64[3] result_position
+---
+# Feedback
+int64[3] current_position

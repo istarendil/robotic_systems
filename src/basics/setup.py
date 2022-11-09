@@ -26,6 +26,8 @@ setup(
             'server = basics.04_server:main',
             'client = basics.05_client:main',
             'parameters = basics.06_parameters:main',
+            'action_server = basics.07_action_server:main',
+            'action_client = basics.08_action_client:main',
         ],
     },
 )
