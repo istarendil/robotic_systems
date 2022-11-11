@@ -7,8 +7,12 @@
   <maintainer email="istarien@todo.todo">istarien</maintainer>
   <license>Apache 2.0</license>
 
+  <!-- Packages -->
   <depend>std_msgs</depend>
   <depend>rclpy</depend>
+
+  <!-- Launchers -->
+  <exec_depend>ros2launch</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
