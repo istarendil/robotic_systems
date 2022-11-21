@@ -7,20 +7,16 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(builtin_interfaces REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 find_package(rosidl_default_generators REQUIRED)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
-	"srv/IkSolver.srv"
-	"srv/Tracer.srv"
-	DEPENDENCIES geometry_msgs
-	DEPENDENCIES builtin_interfaces
-	DEPENDENCIES trajectory_msgs 
- )
+  "srv/JointTrajectory.srv"
+  "action/TrajectoryExecution.action"
+
+  DEPENDENCIES trajectory_msgs
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

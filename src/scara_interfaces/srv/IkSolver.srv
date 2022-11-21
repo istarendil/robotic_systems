@@ -1,6 +1,0 @@
-# Request
-geometry_msgs/Pose pose
----
-# Response
-string[4] names
-float64[4] positions
